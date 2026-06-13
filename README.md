@@ -1,5 +1,6 @@
 # Zalo Data Mover Pro 🚀
-<img width="980" height="852" alt="image" src="https://github.com/user-attachments/assets/bf81a0ab-f38f-423f-bade-8d409a728e32" />
+
+<img width="980" height="852" alt="606992318-bf81a0ab-f38f-423f-bade-8d409a728e32" src="https://github.com/user-attachments/assets/4684b076-dfcd-456a-83c7-58a2ef982f0f" />
 
 
 **Zalo Data Mover Pro** là công cụ tối ưu hóa không gian lưu trữ và quản lý dữ liệu Zalo an toàn, thông minh. Công cụ giúp bạn di chuyển hàng trăm GB dữ liệu Zalo từ ổ C sang các ổ đĩa khác (D, E...) mà không làm gián đoạn hay ảnh hưởng đến ứng dụng Zalo, đặc biệt hữu ích khi ổ C của bạn bị đầy.
