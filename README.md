@@ -1,6 +1,5 @@
 # Zalo Data Mover Pro 🚀
-
-<img width="980" height="852" alt="606992318-bf81a0ab-f38f-423f-bade-8d409a728e32" src="https://github.com/user-attachments/assets/4684b076-dfcd-456a-83c7-58a2ef982f0f" />
+<img width="980" height="852" alt="image" src="https://github.com/user-attachments/assets/bf81a0ab-f38f-423f-bade-8d409a728e32" />
 
 
 **Zalo Data Mover Pro** là công cụ tối ưu hóa không gian lưu trữ và quản lý dữ liệu Zalo an toàn, thông minh. Công cụ giúp bạn di chuyển hàng trăm GB dữ liệu Zalo từ ổ C sang các ổ đĩa khác (D, E...) mà không làm gián đoạn hay ảnh hưởng đến ứng dụng Zalo, đặc biệt hữu ích khi ổ C của bạn bị đầy.
@@ -16,31 +15,38 @@
 - 🧹 **Quản Lý Rác Thông Minh**: Dọn dẹp an toàn các file `.old` rác, khôi phục ngay lập tức không gian lưu trữ khổng lồ cho ổ C.
 - 🎯 **Tự Động Định Tuyến**: Nhận diện thông minh thư mục thật, lọc bỏ thư mục ảo, hỗ trợ linh hoạt mọi thiết lập ổ đĩa cục bộ.
 - 🔐 **An Toàn Tuyệt Đối**: Không can thiệp mã nguồn ứng dụng, loại bỏ rủi ro mất dữ liệu Zalo.
-- 🚀 **Xử Lý Chạy Ngầm**: Tiến trình sao chép và đồng bộ hoạt động hoàn toàn độc lập, không gây đơ hay gián đoạn trải nghiệm sử dụng.
+- 👥 **Đăng Nhập Đa Zalo**: Tạo phân vùng lưu trữ data ảo riêng biệt trên ổ đĩa đích (ổ D, E...), tự động tạo Shortcut Desktop mở nhiều nick độc lập, không nhấp nháy cửa sổ đen CMD.
 - 🩺 **Phục Hồi Link (Restore)**: Auto-Scan siêu việt! Bỏ qua copy, tự động quét và nối lại thư mục gốc chỉ trong 1 giây (Vô cùng tiện lợi khi Cài lại Windows).
 
 ---
 
-## 🚀 3 Chế Độ Hoạt Động Thông Minh
+## 🚀 2 Chức Năng Chính (Giao Diện Dạng Tab)
 
-1. **Clone (Khuyên dùng)**: 
-   - Sao chép toàn bộ dữ liệu an toàn sang ổ đích.
-   - Thư mục gốc trên ổ C được đổi tên thành `.old` để làm phương án backup dự phòng, bạn có thể xóa nó sau khi kiểm tra Zalo hoạt động ổn định.
-2. **Move (Tiết kiệm ổ C)**: 
-   - Di chuyển dữ liệu sang ổ đĩa đích và xóa vĩnh viễn thư mục gốc ở ổ C để giải phóng ngay lập tức dung lượng hệ thống.
-3. **Restore (Cài lại máy)**: 
-   - Tự động quét và dò tìm dữ liệu bạn đã chuyển sang các ổ đĩa khác trước đó. Bỏ qua hoàn toàn khâu Copy nặng nề, tự tạo Link siêu tốc trong 1 giây để Zalo hoạt động lại lập tức.
+1. **Tab 1: Di Chuyển Dữ Liệu**:
+   - **Clone**: Sao chép toàn bộ dữ liệu an toàn sang ổ đích, đổi tên thư mục gốc thành `.old` làm backup dự phòng.
+   - **Move**: Di chuyển dữ liệu sang ổ đĩa đích và xóa vĩnh viễn thư mục gốc ở ổ C để giải phóng ngay lập tức dung lượng.
+   - **Restore**: Tự động quét và nối lại thư mục gốc chỉ trong 1 giây khi cài lại Windows.
+2. **Tab 2: Đăng Nhập Đa Zalo**:
+   - Quét và quản lý danh sách các tài khoản Zalo Clone đang lưu trên ổ đĩa đích.
+   - **Tạo mới tài khoản clone** với phân vùng dữ liệu riêng, tự động đặt shortcut ra Desktop.
+   - **Khởi chạy nhanh** tài khoản bất kỳ trực tiếp từ giao diện tool hoặc bằng cách click đúp shortcut.
+   - **Tự động sửa lỗi & phục hồi** liên kết Junction và shortcut của toàn bộ tài khoản clone chỉ trong 1 giây sau khi cài lại Windows.
 
 ---
 
 ## 💻 Hướng Dẫn Sử Dụng
 
-1. **Bước 1**: Mở phần mềm `ZaloMove` (Chạy dưới quyền Administrator nếu cần).
-2. **Bước 2**: Tại ô **Đường dẫn đích**, chọn vị trí bạn muốn lưu/đã lưu dữ liệu (Ví dụ: `D:\Zalo`).
-3. **Bước 3**: Phần mềm sẽ tự động quét và làm nổi bật các thư mục có sẵn, chọn chế độ sao lưu mong muốn (Clone / Move / Restore).
-4. **Bước 4**: Bấm **Bắt Đầu Chuyển Dữ Liệu**. Phần mềm sẽ lo toàn bộ quá trình còn lại!
+### Chức năng 1: Di chuyển dữ liệu để dọn ổ C
+1. **Bước 1**: Mở phần mềm `ZaloMove` (Chạy dưới quyền Administrator).
+2. **Bước 2**: Tại Tab **Di Chuyển Dữ Liệu**, chọn **Đường dẫn đích** (Ví dụ: `D:\Zalo`).
+3. **Bước 3**: Chọn các thư mục cần di chuyển và chế độ sao lưu mong muốn (Clone / Move / Restore).
+4. **Bước 4**: Bấm **Bắt Đầu Chuyển Dữ Liệu**.
 
-> **Lưu ý:** Vui lòng không cố gắng mở ứng dụng Zalo trong quá trình Tool đang chạy.
+### Chức năng 2: Tạo và quản lý Zalo Đa Tài Khoản
+1. **Bước 1**: Chọn **Đường dẫn đích** ở Tab 1 để làm nơi lưu trữ dữ liệu đa tài khoản (Ví dụ: `D:\Zalo`).
+2. **Bước 2**: Chuyển sang Tab **Đăng Nhập Đa Zalo**.
+3. **Bước 3**: Nhập tên tài khoản phụ (không dấu, ví dụ: `CongViec`, `GiaDinh`) và bấm **Tạo Mới** (hoặc ấn Enter).
+4. **Bước 4**: Click đúp vào tài khoản trong danh sách (hoặc Shortcut ngoài Desktop) để mở Zalo đăng nhập nick mới.
 
 ---
 
